@@ -9,6 +9,7 @@ import { CartProvider } from './context/cart.context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // Provider sebagai define state agar bisa digunakan secara global sesuai tingkatan
   <React.StrictMode>
     <BrowserRouter>
       <UserProvider>
