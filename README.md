@@ -1,7 +1,8 @@
 # Learn React 2022
 
 1. Monster Rolodex: Base of react js with functional component]
-2. Crown Clothing: React js With Firebase and SCSS
+2. Crown Clothing: React js With Context, Firebase and SCSS
+3. Crown Clothing: React js With Redux
 
 # Instalasi React
 Informasi mengenai react dapat dibaca di `https://reactjs.org`
