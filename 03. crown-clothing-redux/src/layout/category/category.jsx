@@ -6,8 +6,8 @@ import { selectCategoriesMap } from "../../store/categories/category.selector";
 import "./category.scss";
 
 const Category = () => {
-  const categoriesMap = useSelector(selectCategoriesMap);
   const { category } = useParams();
+  const categoriesMap = useSelector(selectCategoriesMap);
   const [products, setProducst] = useState([]);
 
   useEffect(() => {
