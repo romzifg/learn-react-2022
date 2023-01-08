@@ -8,7 +8,7 @@ import "./category.scss";
 const Category = () => {
   const { category } = useParams();
   const categoriesMap = useSelector(selectCategoriesMap);
-  const [products, setProducst] = useState([]);
+  const [products, setProducst] = useState(categoriesMap[category]);
 
   useEffect(() => {
     setProducst(categoriesMap[category]);
